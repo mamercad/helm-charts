@@ -3,6 +3,16 @@ entries:
   ara:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2021-10-04T10:09:04.919554599Z"
+    description: A Helm chart for ARA Records Ansible
+    digest: 6dfa6700f01f58327d74e0b9393a1640747ede485763218ee78ab6b20d5c79ad
+    name: ara
+    type: application
+    urls:
+    - https://github.com/mamercad/helm-charts/releases/download/ara-0.2.0/ara-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2021-10-03T23:18:47.270337-04:00"
     description: A Helm chart for ARA Records Ansible
     digest: 0914cc2a4c9fedec32225b8caf5ca4614946aad8d33a94075addd5eb80d18441
