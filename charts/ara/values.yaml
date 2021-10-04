@@ -1,7 +1,7 @@
 deployment:
   ara:
     image: docker.io/recordsansible/ara-api
-    tag: latest
+    tag: fedora33-source-latest
 
 service:
   type: LoadBalancer
