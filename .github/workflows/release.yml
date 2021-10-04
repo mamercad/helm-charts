@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ara
+        working-directory: charts
     steps:
 
       - name: Checkout
