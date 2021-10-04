@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ara:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-03T23:18:47.270337-04:00"
+    description: A Helm chart for ARA Records Ansible
+    digest: 0914cc2a4c9fedec32225b8caf5ca4614946aad8d33a94075addd5eb80d18441
+    name: ara
+    type: application
+    urls:
+    - charts/ara-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-10-03T23:18:47.269822-04:00"
