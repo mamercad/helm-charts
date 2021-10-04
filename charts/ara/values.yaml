@@ -1,7 +1,10 @@
-image: docker.io/recordsansible/ara-api
-tag: latest
+deployment:
+  ara:
+    image: docker.io/recordsansible/ara-api
+    tag: latest
 
-service_type: LoadBalancer
+service:
+  type: LoadBalancer
 
 env:
   ARA_ALLOWED_HOSTS: "['localhost','127.0.0.1','::1']"
