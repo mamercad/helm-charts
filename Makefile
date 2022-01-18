@@ -30,6 +30,7 @@ repo-add:
 repo-search:
 	helm search repo ara
 
+# cloudmason.org is my (home) domain, i think i needed `env.ARA_ALLOWED_HOSTS` because TLS was offloaded to my edge
 helm-install:
 	helm install ara mamercad/ara --create-namespace --namespace ara --set env.ARA_ALLOWED_HOSTS="['ara.cloudmason.org']"
 
